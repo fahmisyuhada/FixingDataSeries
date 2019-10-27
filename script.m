@@ -16,12 +16,12 @@ tolerant = 3;
 cDtCom = 5;
 
 figure
-subplot(2,1,1)
+subplot(1,1,1)
 plot(value)
 legend('Data');
-subplot(2,1,2)
-plot(abs(delta))
-legend('Delta');
+% subplot(2,1,2)
+% plot(abs(delta))
+% legend('Delta');
 
 
 % for i=1:size(value) - cDtCom
